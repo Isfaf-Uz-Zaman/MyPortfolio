@@ -1,6 +1,8 @@
 body{
 
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
 }
 
 h1{
@@ -13,6 +15,13 @@ h3{
     font-weight: bold;
 }
 
+
+h2{
+
+    font-size: 40px;
+
+    font-weight: bold;
+}
 #yellow{
 
     color: goldenrod;
@@ -24,6 +33,7 @@ h3{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    margin-top: 5px;
 
 }
 
@@ -31,4 +41,37 @@ h3{
 .info img{
 
     width: 100%;
+}
+
+
+.topBanner{
+
+    background-image: url("/Images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+
+section{
+
+    height: 500px;
+    padding-bottom: 200px;
+}
+
+.hireme{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(53, 6, 6),tomato );
+    padding: 10px 10px;
+    background-color: orange;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+
+.dream{
+    background-image: url(/Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
