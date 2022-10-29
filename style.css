@@ -98,3 +98,25 @@ section{
     background-repeat: no-repeat;
     background-position: left;
 }
+
+#borderOrange{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, tomato,orange);
+    border-image-slice: 1;
+
+}
+
+#borderBlue{
+    border-left: 5px solid;
+
+    border-image: linear-gradient(180deg, rgb(81, 72, 99),rgb(49, 13, 209) );
+    border-image-slice: 1;
+}
+
+
+footer p{
+
+    font-size: 15px;
+
+    text-align: center;
+}
