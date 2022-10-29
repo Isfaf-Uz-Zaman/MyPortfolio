@@ -27,15 +27,21 @@ h2{
     color: goldenrod;
 }
 
+.yellow{
+
+    color: goldenrod;
+}
+
 .info{
 
-    width: 40%;
+    width: 35%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
     margin-top: 5px;
 
 }
+
 
 
 .info img{
@@ -54,7 +60,7 @@ h2{
 section{
 
     height: 500px;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
 }
 
 .hireme{
@@ -74,4 +80,21 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+
+.single-experience{
+
+
+    box-shadow: 10px 10px 40px gray ;
+
+    border-radius: 5px;
+
+    height: 80%;
+}
+
+.experience-area{
+
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
